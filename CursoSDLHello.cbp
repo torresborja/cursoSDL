@@ -38,10 +38,23 @@
 			<Add option="`sdl2-config --libs`" />
 			<Add library="SDL2_image" />
 		</Linker>
+		<Unit filename="README.md">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/Enemy.h" />
 		<Unit filename="include/Game.h" />
+		<Unit filename="include/GameObject.h" />
+		<Unit filename="include/LoaderParams.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/SDLGameObject.h" />
 		<Unit filename="include/TextureManager.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Enemy.cpp" />
 		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/GameObject.cpp" />
+		<Unit filename="src/LoaderParams.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/SDLGameObject.cpp" />
 		<Unit filename="src/TextureManager.cpp" />
 		<Extensions>
 			<envvars />

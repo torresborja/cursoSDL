@@ -1,16 +1,21 @@
 # depslib dependency file v1.0
-1529433155 source:/home/torresborja/dev/CursoSDLHello/main.cpp
+1529604045 source:/home/torresborja/dev/CursoSDLHello/main.cpp
 	"Game.h"
 
-1529436181 source:/home/torresborja/dev/CursoSDLHello/src/Game.cpp
+1529603432 source:/home/torresborja/dev/CursoSDLHello/src/Game.cpp
 	"Game.h"
 	"TextureManager.h"
 	<SDL_image.h>
 	<iostream>
+	<Enemy.h>
+	<LoaderParams.h>
 
-1529436084 /home/torresborja/dev/CursoSDLHello/include/Game.h
+1529603059 /home/torresborja/dev/CursoSDLHello/include/Game.h
 	"SDL.h"
 	"TextureManager.h"
+	<SDLGameObject.h>
+	<Player.h>
+	<vector>
 
 1520264342 /usr/include/SDL2/SDL.h
 	"SDL_main.h"
@@ -360,4 +365,40 @@
 1529436856 source:/home/torresborja/dev/CursoSDLHello/src/TextureManager.cpp
 	"TextureManager.h"
 	<SDL_image.h>
+
+1529603028 /home/torresborja/dev/CursoSDLHello/include/GameObject.h
+	<LoaderParams.h>
+
+1529602689 /home/torresborja/dev/CursoSDLHello/include/Player.h
+	<SDLGameObject.h>
+
+1529603093 source:/home/torresborja/dev/CursoSDLHello/src/GameObject.cpp
+	"GameObject.h"
+	<TextureManager.h>
+
+1529603374 source:/home/torresborja/dev/CursoSDLHello/src/Player.cpp
+	"Player.h"
+	<string>
+	<SDL.h>
+
+1529604027 source:/home/torresborja/dev/CursoSDLHello/src/Enemy.cpp
+	"Enemy.h"
+	<SDL.h>
+
+1529602615 /home/torresborja/dev/CursoSDLHello/include/Enemy.h
+	<SDLGameObject.h>
+
+1529601871 /home/torresborja/dev/CursoSDLHello/include/LoaderParams.h
+	<string>
+
+1529603223 /home/torresborja/dev/CursoSDLHello/include/SDLGameObject.h
+	<GameObject.h>
+
+1529603327 source:/home/torresborja/dev/CursoSDLHello/src/LoaderParams.cpp
+	"LoaderParams.h"
+
+1529603685 source:/home/torresborja/dev/CursoSDLHello/src/SDLGameObject.cpp
+	"SDLGameObject.h"
+	<TextureManager.h>
+	<Game.h>
 
